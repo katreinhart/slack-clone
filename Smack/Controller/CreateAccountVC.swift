@@ -19,6 +19,13 @@ class CreateAccountVC: UIViewController {
     // Variables
     var avatarName = "profileDefault"
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDataService.instance.avatarName != "" {
+            userImg.image = UIImage(named: UserDataService.instance.avatarName)
+            avatarName = UserDataService.instance.avatarName
+        }
+    }
 
     @IBAction func createAccountPressed(_ sender: Any) {
         guard let name = usernameTxt.text, usernameTxt.text != "" else { return }
