@@ -202,6 +202,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="O6N-GS-6We" id="baU-md-SeW"/>
+                        <outlet property="userImg" destination="9DT-kz-htB" id="5aM-tI-F2L"/>
                         <segue destination="HR4-iP-JIM" kind="show" identifier="toLogin" id="WUH-AH-Iye"/>
                     </connections>
                 </viewController>
