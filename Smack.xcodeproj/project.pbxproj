@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46122C0F1F801093004B401D /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46122C0E1F801093004B401D /* MessageService.swift */; };
+		46122C111F8010B8004B401D /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46122C101F8010B8004B401D /* Channel.swift */; };
 		4612F73B1F7872B7005C2538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612F73A1F7872B7005C2538 /* AppDelegate.swift */; };
 		4612F7401F7872B7005C2538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4612F73E1F7872B7005C2538 /* Main.storyboard */; };
 		4612F7421F7872B7005C2538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4612F7411F7872B7005C2538 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 
 /* Begin PBXFileReference section */
 		322E061C09879694E7A48C56 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
+		46122C0E1F801093004B401D /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		46122C101F8010B8004B401D /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		4612F7371F7872B7005C2538 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4612F73A1F7872B7005C2538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4612F73F1F7872B7005C2538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 		4612F76C1F787CB2005C2538 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				46122C101F8010B8004B401D /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			children = (
 				46C61EE21F79FE6700919347 /* AuthService.swift */,
 				46C61EE61F7A0E9A00919347 /* UserDataService.swift */,
+				46122C0E1F801093004B401D /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -442,7 +448,9 @@
 				4612F7701F787CD9005C2538 /* ChatVC.swift in Sources */,
 				4646106C1F7B3A9B000183E9 /* AvatarPickerVC.swift in Sources */,
 				46C61EE51F7A076600919347 /* RoundedButton.swift in Sources */,
+				46122C111F8010B8004B401D /* Channel.swift in Sources */,
 				46F413571F7DC92500B82D44 /* CircleImage.swift in Sources */,
+				46122C0F1F801093004B401D /* MessageService.swift in Sources */,
 				4612F7721F787CE6005C2538 /* ChannelVC.swift in Sources */,
 				46C61EE71F7A0E9A00919347 /* UserDataService.swift in Sources */,
 				4683CEA11F78BA050058758D /* CreateAccountVC.swift in Sources */,
