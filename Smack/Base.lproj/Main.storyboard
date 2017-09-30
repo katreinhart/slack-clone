@@ -135,7 +135,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fLt-c9-vcp">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="fLt-c9-vcp" customClass="ChannelCell" customModule="Smack" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fLt-c9-vcp" id="W5u-3d-gaw">
@@ -155,6 +155,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="qw6-U2-7Vo" id="TH2-QQ-bJL"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -202,6 +205,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="O6N-GS-6We" id="baU-md-SeW"/>
+                        <outlet property="tableView" destination="bG3-qz-Fs0" id="x9d-0h-DRd"/>
                         <outlet property="userImg" destination="9DT-kz-htB" id="5aM-tI-F2L"/>
                         <segue destination="HR4-iP-JIM" kind="show" identifier="toLogin" id="WUH-AH-Iye"/>
                     </connections>
