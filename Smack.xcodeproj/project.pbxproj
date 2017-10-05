@@ -28,6 +28,7 @@
 		46AD956D1F803A0100F31702 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AD956B1F803A0100F31702 /* AddChannelVC.swift */; };
 		46AD956E1F803A0100F31702 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AD956C1F803A0100F31702 /* AddChannelVC.xib */; };
 		46B3617B1F85D24C00FE7D64 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B3617A1F85D24C00FE7D64 /* Message.swift */; };
+		46B3617D1F85D99700FE7D64 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B3617C1F85D99700FE7D64 /* KeyboardBoundView.swift */; };
 		46C61EE31F79FE6700919347 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C61EE21F79FE6700919347 /* AuthService.swift */; };
 		46C61EE51F7A076600919347 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C61EE41F7A076600919347 /* RoundedButton.swift */; };
 		46C61EE71F7A0E9A00919347 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C61EE61F7A0E9A00919347 /* UserDataService.swift */; };
@@ -86,6 +87,7 @@
 		46AD956B1F803A0100F31702 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		46AD956C1F803A0100F31702 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		46B3617A1F85D24C00FE7D64 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		46B3617C1F85D99700FE7D64 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		46C61EE21F79FE6700919347 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		46C61EE41F7A076600919347 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		46C61EE61F7A0E9A00919347 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		4612F76E1F787CBD005C2538 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				46B3617C1F85D99700FE7D64 /* KeyboardBoundView.swift */,
 				4612F7751F788BCB005C2538 /* GradientView.swift */,
 				46C61EE41F7A076600919347 /* RoundedButton.swift */,
 				4646106D1F7B3C66000183E9 /* AvatarCell.swift */,
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B3617D1F85D99700FE7D64 /* KeyboardBoundView.swift in Sources */,
 				46EF42011F846147004ABE9D /* SocketService.swift in Sources */,
 				46EC21241F7F1089002A36A3 /* ProfileVC.swift in Sources */,
 				46122C131F801805004B401D /* ChannelCell.swift in Sources */,
