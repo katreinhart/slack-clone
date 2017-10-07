@@ -148,11 +148,19 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hv9-oS-WcG">
+                                <rect key="frame" x="8" y="621" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pr2-Uo-Jmo" firstAttribute="top" secondItem="hv9-oS-WcG" secondAttribute="bottom" constant="6" id="1lO-FC-SzJ"/>
                             <constraint firstItem="7EB-Rn-3Lb" firstAttribute="leading" secondItem="LRr-Wb-8XN" secondAttribute="leading" id="1tp-Q1-S2q"/>
                             <constraint firstItem="LRr-Wb-8XN" firstAttribute="trailing" secondItem="pr2-Uo-Jmo" secondAttribute="trailing" id="4dz-Mp-uQW"/>
+                            <constraint firstItem="hv9-oS-WcG" firstAttribute="leading" secondItem="LRr-Wb-8XN" secondAttribute="leading" constant="8" id="83Y-Df-RqN"/>
                             <constraint firstItem="pr2-Uo-Jmo" firstAttribute="leading" secondItem="LRr-Wb-8XN" secondAttribute="leading" id="FKA-30-ifH"/>
                             <constraint firstItem="cra-Xv-DTo" firstAttribute="centerY" secondItem="pr2-Uo-Jmo" secondAttribute="centerY" id="JyX-z6-XLq"/>
                             <constraint firstItem="LRr-Wb-8XN" firstAttribute="bottom" secondItem="pr2-Uo-Jmo" secondAttribute="bottom" id="Njo-XX-GZN"/>
@@ -172,6 +180,7 @@
                         <outlet property="messageTextBox" destination="pr2-Uo-Jmo" id="ryt-cd-GUk"/>
                         <outlet property="sendButton" destination="cra-Xv-DTo" id="7Co-z5-ShB"/>
                         <outlet property="tableView" destination="NGM-uz-U9f" id="wXM-2E-XVn"/>
+                        <outlet property="typingUsersLbl" destination="hv9-oS-WcG" id="piV-Wl-MvD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ja4-7Q-ZgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
